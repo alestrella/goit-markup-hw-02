@@ -1,0 +1,30 @@
+/* Filter buttons */
+.filter-btn {
+  background-color: var(--secondary-bg-color);
+  /* border-radius: 4px; */
+
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--accent-text-color);
+}
+
+/* Examples */
+.portfolio .link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  line-height: 1.87;
+}
