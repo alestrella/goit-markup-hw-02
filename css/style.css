@@ -130,8 +130,6 @@ button {
 .button {
   background-color: var(--accent-color);
   color: var(--accent-text-bg-color);
-  border: 0;
-  border-radius: 4px;
 
   font-weight: 700;
   line-height: 1.87;
@@ -141,6 +139,12 @@ button {
 .button:hover,
 .button:focus {
   background-color: var(--hover-main-btn-color);
+}
+
+.button,
+.filter-btn {
+  border: 0;
+  border-radius: 4px;
 }
 
 /* Section title*/
@@ -184,8 +188,6 @@ button {
 /* Filter buttons */
 .filter-btn {
   background-color: var(--secondary-bg-color);
-  border: 0;
-  border-radius: 4px;
 
   font-weight: 500;
   line-height: 1.62;
